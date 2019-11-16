@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#023D69">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+</head>
+<body class="body-bg">
+    <div id="root"></div>
+
+    <script type="text/javascript" src="/js/bundle.js?v=COMMITHASH1"></script>
+    <script>
+      // Check scrol  l position and add/remove background to navbar
+      function checkScrollPosition() {
+        if($(window).scrollTop() > 50) {
+          $(".fixed-header").addClass("scroll");
+        } else {
+          $(".fixed-header").removeClass("scroll");
+        }
+      }
+      
+      $(document).ready(function () {
+        // Single page nav
+        $('.fixed-header').singlePageNav({
+          offset: 59,
+          filter: ':not(.external)',
+          updateHash: true
+        });
+        checkScrollPosition();
+        // nav bar
+        $('.navbar-toggle').click(function(){
+          $('.main-menu').toggleClass('show');
+        });
+        $('.main-menu a').click(function(){
+          $('.main-menu').removeClass('show');
+        });
+      });
+      $(window).on("scroll", function() {
+        checkScrollPosition();
+      });
+    </script>
+</body>
+</html>
