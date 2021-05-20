@@ -1,137 +1,57 @@
-# SkillCrucial React Redux boilerplate
+<p>
+  <img width="150" align='right' src="images/logo.jpg?raw=true">
+</p>
 
-## Quick start
+# Hi folks 🖐️,
 
-1. Clone this repo using:
-  ```shell
-  $ git clone git@github.com:ovasylenko/skillcrucial-react-redux-boilerplate.git
-  ```
+## I’m Andrey Macbaren
 
-2. To install dependencies and clean the git repo run:
+### Nice to meet you!
 
-  ```shell
-  $ yarn install
-  ```
+Since beginning my journey as a freelance developer nearly 5 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time (_this text was partly stolen, but almost truthful_ 😉)
 
-  *We recommend using `yarn` for installing packages, but you can use `npm` instead*:
+---
 
-  ```shell
-  $ npm install
-  ```
-3. Create first build
+_**Front-end Developer**_  
+I like to code things from scratch, and enjoy bringing ideas to life in the browser.
 
-  ```shell
-  $ yarn run build:prod
-  ```
-4. Copy .env.example file to .env and make the necessary changes there
-  
-5. Run project in Dev mode
+_**Designer**_  
+I value simple content structure, clean design patterns, and thoughtful interactions.
 
-  ```shell
-  $ yarn run dev
-  ```
+~~_**Mentor😶**_~~  
+~~I genuinely care about people, and love helping fellow designers work on their craft.~~
 
-## Features
+---
 
-* Redux
-* Modern ES6 for using template strings, JSX syntax, object destructuring arrow functions and more
-* Babel for old browser support
-* SASS/SCSS: make styles greate again, with no tears
-* React Router
-* Hot Module Replacement for comfortable development
+| Things I enjoy designing         | Languages I speak                | Experiences I draw from:           |
+| -------------------------------- | -------------------------------- | ---------------------------------- |
+| UX, UI, Web, Mobile, Apps, Logos | HTML, Pug, Slim, CSS, Sass, Less | UX/UI, Product design, Freelancing |
 
-## Project Structure
+---
 
-#### `client/`
+### My Recent Work
 
-You will write your app in this folder. You will spend most of your time in here.
+Here are a few design projects I've worked on recently:  
+[Todo App](https://react-hooks-6af17.firebaseapp.com/)  
+[React Quiz](https://react-quiz-b00d2.firebaseapp.com/)  
+[Github user searcher](https://git-repo-searcher.herokuapp.com/)
 
-#### `client/components`
+Want to see more? Email me  
+macbaren123@gmail.com
 
-This folder contains all your components
+---
 
-#### `dist/assets`
-This directory contains compiled project files
-
-#### `webpack.development.config.js` `and webpack.production.frontend.config.js`
-Project environment configs. Webpack uses proper config depending on defined application environment. 
-By default `webpack.development.config.js` is used unless you build the application with --config webpack.production.frontend.config.js variable.
-
-
-## Command Line Commands
-
-#### Installation
-
-```Shell
-yarn install
-```
-Installs the dependencies.
-
-#### Development
-
-```Shell
-yarn run dev
-```
-
-Starts the development server running on `http://localhost:3000` using the webpack.development.config.js with Hot Module Replacement (HMR) (Changes in the application code will be hot-reloaded)
-
-```Shell
-yarn run dev:server
-```
-
-Starts the development server and makes your application accessible at http://localhost:3000.
-
-```Shell
-yarn run clean
-```
-Removes a directory "dist" from a project
-
-#### Building
-
-```Shell
-yarn build:prod
-```
-
-Prepares your app for deployment to production environment (using the webpack.production.frontend.config.js) (does not run tests). Optimizes and minifies all files, piping them to the `dist` folder.
-
-
-#### Testing
-
-```Shell
-yarn run test
-```
-
-Tests your application modern JavaScript Testing Framework - Jest with the unit tests specified in the `**/__tests__/*.spec.js` files
-throughout the application.
-
-```Shell
-yarn run test:watch
-```
-
-Watches changes to your application and re-runs tests whenever a file changes.
-
-```Shell
-yarn run coverage
-```
-
-Generates test coverage.
-
-
-It’s also possible to leave out the run in this command, each script can be executed with its name, e.g:
-yarn test:watch
-yarn test:coverage
-
-#### Linting
-
-```Shell
-yarn run lint
-```
-Will analyse your code for potential errors. Will check both: `./client/**/**.js` and `./server/**/**.js` files.
-Code linting is a type of static analysis that is frequently used to find problematic patterns or code that doesn’t adhere to certain style guidelines. 
-
-
-```Shell
-yarn run lint:server
-```
-
-Will analyse only  `server/**/**.js` files
+<p align='center'>
+<text>Interested in collaborating or investing?</text>
+<br/>
+<text>I’m always open to discussing product design work or partnership opportunities.</text>
+<br/>
+<a href="https://www.linkedin.com/in/andrey-macbaren/"><img height="30" src="images/linkedin.png?raw=true"></a>&nbsp;&nbsp;
+<a href="https://twitter.com/macbarenI"><img height="30" src="https://github.com/WaylonWalker/WaylonWalker/blob/main/icon/twitter.png?raw=true"></a>&nbsp;&nbsp;
+<a href="https://t.me/macbaren124"><img height="30" src="images/telegram.png?raw=true"></a>&nbsp;&nbsp;
+<a href="https://www.codewars.com/users/Macbaren"><img height="30" src="images/codewars.png?raw=true"></a>&nbsp;&nbsp;
+</p>
+<p align='center'>
+Handcrafted by me (c)
+<a href="https://github.com/Macbaren">Macbaren</a>
+</p>
