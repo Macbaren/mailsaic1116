@@ -126,7 +126,7 @@
     "jest": "^24.9.0",
     "jest-cli": "^24.9.0",
     "node-hot-loader": "^1.17.6",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "nodemon": "^1.19.4",
     "react-addons-test-utils": "^15.6.2",
     "react-test-renderer": "16.11.0",
